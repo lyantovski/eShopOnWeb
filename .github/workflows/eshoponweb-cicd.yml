@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: lyantovski-sc-rg
-  LOCATION: swedencentral
+  LOCATION: Sweden Central
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 3ae6ed3f-c1b6-4933-9dd2-de222ad978bf
   WEBAPP-NAME: eshoponweb-webapp-lyantovski
